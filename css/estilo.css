@@ -1,0 +1,236 @@
+.ui-icon-myicon:after {
+    background-image: url("../_assets/img/glyphish-icons/21-skull.png");
+    /* Make your icon fit */
+    background-size: 18px 18px;
+}
+.presentacion{
+    
+  /*display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+   /* z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    margin-right: 0px;
+    overflow: auto; /* Enable scroll if needed */
+}
+.parafondooscurito{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   
+}
+.contenido{
+    width: 90%;
+    background: #0AFF12;
+
+}
+.menu{
+   
+    margin-bottom: 5px;
+
+}
+.texto{
+    margin: 0px;
+    text-emphasis:  #ffffff;
+    color:  #ff0;
+    
+}
+.paddintexto{
+    padding-top: 20px;
+}
+
+.cuerpo{
+    position: relative;
+    background:  deeppink;
+    text-align: center;
+    margin-top: 5px;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+.bloque{
+    position:  relative;
+    width: 33%;
+    height: 600px;
+    float: left;
+    background:  #f5e79e;
+    margin-left: 2px;
+
+
+    margin-bottom: 5px;
+
+}
+.pie{
+    position: relative;
+
+    background:  #080808;
+    clear: both;
+
+
+}
+.bloque6{
+    background:  #ff0;
+
+    height: 99px;
+}
+.parrafo{
+    color:  #ff0;
+    margin: 0;
+    text-align:  right;
+    margin-right: 8px;
+}
+.pp{
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.linea{
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #f5e79e;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #ff0;
+}
+ul{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    background-color: red;
+    width: 80%;
+    height: 35%;
+   
+   
+    
+}
+li a{
+    display: inline-block;
+    color: khaki;
+    padding: 8px 16px;
+    text-decoration: none;
+    list-style-type: none;
+}
+li a:hover{
+    background-color: yellow;
+    color: wheat;
+}
+li{
+    display: inline;
+    float: left;
+}
+a{
+    display: block;
+    padding: 8px;
+    background-color: yellow;
+}
+.active{
+    background-color: olive;
+}
+.borde{
+    text-align: center;
+    border-bottom:  #000000;
+    border-bottom-style:  solid;
+    border-bottom-width: 1px;
+}
+.margentop {
+    margin-top: 10px;
+}
+.letra{
+  font-size: 1.75rem;
+font-family:  Helvetica;
+    color: #000000;
+}
+.subletra{
+    font-size: 2rem;
+    font-family: cursive;
+    
+    background-color: #00ffff;
+    
+}
+
+.derid{
+    text-align: right;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffcc33;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    color: orangered;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: yellow;
+    color: negro;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropbtn {
+    background-color: #0AFF12;
+    color: white;
+    
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:640px) {
+    .tamav{
+        width: 250px;
+        height: 200px;
+    }
+    
+    /* reglas CSS */
+}
+@media screen and (max-width:1024px) and (min-width:640px) {
+    .tamav{
+        width: 800px;
+        height: 600px;
+    }
+    /* reglas CSS */
+}
+@media screen and (min-width:1024px) {
+    .tamav{
+        width: 1000px;
+        height: 800px;
+    }
+    /* reglas CSS */
+}
+.bordefinito{
+    border-top-style: solid;
+    margin-bottom: 0px;
+    border-top-width: 1px;
+    border-color: red;
+}
+a{
+    color: yellow;
+}
+
+.bordeabajo{
+    text-align: center;
+    border-bottom-color: green;
+    border-bottom-width: 2px;
+    border-bottom-style: double;
+}

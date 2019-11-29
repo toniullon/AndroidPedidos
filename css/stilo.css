@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28.10.2018, 18:49:26
+    Author     : Karen
+*/
+
+.parafondooscurito{
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   
+}
+.presentacion{
+    
+  /*display: none; /* Hidden by default */
+    position: absolute; /* Stay in place */
+   /* z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    margin-right: 0px;
+    overflow: auto; /* Enable scroll if needed */
+}
+.borde{
+    text-align: center;
+    border-bottom:  crimson;
+    border-bottom-style:  solid;
+    border-bottom-width: 1px;
+}
+.margentop {
+    margin-top: 10px;
+}
+.pie{
+    position: relative;
+
+    background:  gray;
+    clear: both;
+
+
+}
+.parrafo{
+    color:  white;
+    margin: 0;
+    text-align:  right;
+    margin-right: 8px;
+}
+
+.letra{
+  font-size: 1.75rem;
+font-family:  Helvetica;
+    color: red;
+}
+.subletra{
+    font-size: 4rem;
+    font-family: cursive;
+    
+    background-color: #00ffff;
+    
+}
+.bordefinito{
+    border-top-style: solid;
+    margin-bottom: 0px;
+    border-top-width: 1px;
+    border-color: red;
+}
+
+
+.bordeabajo{
+    text-align: center;
+    bottom-color: green;
+    border-bottom-style: solid;
+    
+}
+.paddintexto{
+    padding-top: 40px;
+}
+.texto{
+    margin: 0px;
+    text-emphasis:  #ffffff;
+    color:  #000000;
+    
+}
+@media screen and (max-width:640px) {
+    .tamav{
+        width: 250px;
+        height: 200px;
+    }
+    
+    /* reglas CSS */
+}
+@media screen and (max-width:1024px) and (min-width:640px) {
+    .tamav{
+        width: 800px;
+        height: 600px;
+    }
+    /* reglas CSS */
+}
+@media screen and (min-width:1024px) {
+    .tamav{
+        width: 800px;
+        height: 500px;
+    }
+    /* reglas CSS */
+}
+.centrado{
+    text-align: center;
+     
+}
